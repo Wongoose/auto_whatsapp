@@ -40,4 +40,5 @@ while i < count:
 	final_phone =  "+6" + re.sub("[Ww-]", "", whatsapp[i]);
 	print("wa: " + final_phone + "\n");
 	sendMessage(final_phone, "img/" + units[i] + ".jpg", "Dear " + names[i] + ",\n\nhere is your invoice testing.");
+	time.sleep(5);
 	i += 1;
